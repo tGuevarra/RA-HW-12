@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "RA-HW-12/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RA-HW-12.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RA-HW-12.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RA-HW-12/1.0.0": {
+      "type": "project",
+      "path": "../RA-HW-12/RA-HW-12.csproj",
+      "msbuildProject": "../RA-HW-12/RA-HW-12.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "RA-HW-12 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\denis\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\denis\\source\\repos\\RA-HW-12\\zipReader\\zipReader.csproj",
+      "projectName": "zipReader",
+      "projectPath": "C:\\Users\\denis\\source\\repos\\RA-HW-12\\zipReader\\zipReader.csproj",
+      "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\denis\\source\\repos\\RA-HW-12\\zipReader\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\denis\\source\\repos\\RA-HW-12\\RA-HW-12\\RA-HW-12.csproj": {
+              "projectPath": "C:\\Users\\denis\\source\\repos\\RA-HW-12\\RA-HW-12\\RA-HW-12.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

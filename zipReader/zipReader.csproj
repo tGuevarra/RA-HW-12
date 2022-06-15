@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+	<RootNamespace>zipReader</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="C:\Users\denis\source\repos\RA-HW-12\RA-HW-12\RA-HW-12.csproj" />
+	</ItemGroup>
+</Project>
