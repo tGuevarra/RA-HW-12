@@ -1,0 +1,1 @@
+C:\Users\denis\source\repos\RA-HW-12\RA-HW-12\bin\Debug\net6.0\textfile.csv
